@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    background-color: rgb(218, 240, 240);
+
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    background-color: rgb(198, 194, 187);
+    margin-bottom: 20px;
+}
+nav a {
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+   color: rgb(212, 250, 41);
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 16px 16px 30px -4px rgba(0,0,0,0.62);
+}
+.container .biodata{
+    display: flex;
+}
+.container .biodata img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+.perkenalan{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 20px;
+    text-align: left;
+}
+.perkenalan p{
+    font-size: 15px;
+    text-align: justify;
+    font-family: monospace;
+    margin-right: 20px;
+}
+.container .About{
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.container .About p{
+    font-size: 15px;
+    text-align: justify;
+    margin-right: 20px;
+}
